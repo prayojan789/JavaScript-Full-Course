@@ -74,17 +74,17 @@
 //Conditional Statements
 
 // let age = 18;
-let mode = "dark";
-let color;
+// let mode = "dark";
+// let color;
 
-if (mode === "dark") {
-    color = "black";
-}
-if (mode === "light") {
-    color =  "white";
+// if (mode === "dark") {
+//     color = "black";
+// }
+// if (mode === "light") {
+//     color =  "white";
 
-}
-console.log(color);
+// }
+// console.log(color);
 
 
 
@@ -97,3 +97,58 @@ console.log(color);
 
 //      console.log("you can't vote");
 // }
+
+// let mode = "light";
+// let color ;
+
+// if (mode == "dark") {
+//     color = "black";
+
+// } else{
+//     color = "white";
+// }
+
+//     console.log(color);
+
+// let age = 16;
+
+// if(age >= 18){
+//     console.log("vote");
+    
+// }else {
+//     console.log("not vote");
+// }
+
+
+//odd or even
+
+// let num = 10;
+  
+// if (num % 2 === 0) {
+//     console.log("num, is even"); 
+// } else{
+//     console.log("num , is odd");
+// }
+
+
+let mode = "silver";
+let color;
+ 
+
+if (mode === "dark") {
+    color = "black";
+} else if (mode === "blue") {
+    color = "blue";
+} else if (mode === "pink") {
+    color = "pink";
+
+}else {
+    color = "white";
+}
+
+
+console.log(color);
+
+if (mode === "dark") {
+    console.log(mode);
+}
