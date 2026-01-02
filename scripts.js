@@ -55,17 +55,45 @@
 
 //Logical Operators
 
-let a = 6;
-let b = 5;
+// let a = 6;
+// let b = 5;
 
 
-let  cond1 = a>b ; //true
-let  cond2 = a<b ; //true
-let  cond3 = a===6 ; //true
+// let  cond1 = a>b ; //true
+// let  cond2 = a<b ; //true
+// let  cond3 = a===6 ; //true
 
-console.log("cond1 && cond2 =", cond1 && cond2);
-console.log("cond2 && cond3 =", cond2 && cond3);
-console.log("cond1 && cond2 =", a <b && a===6);
-console.log("cond1 && cond2 =", a <b || a===6);
-console.log("!(6<5) =", !( a===6)); 
+// console.log("cond1 && cond2 =", cond1 && cond2);
+// console.log("cond2 && cond3 =", cond2 && cond3);
+// console.log("cond1 && cond2 =", a <b && a===6);
+// console.log("cond1 && cond2 =", a <b || a===6);
+// console.log("!(6<5) =", !( a===6)); 
 
+
+
+//Conditional Statements
+
+// let age = 18;
+let mode = "dark";
+let color;
+
+if (mode === "dark") {
+    color = "black";
+}
+if (mode === "light") {
+    color =  "white";
+
+}
+console.log(color);
+
+
+
+// if (age >= 18) {
+//     console.log("you can vote");
+    
+// }
+
+// if (age < 18) {
+
+//      console.log("you can't vote");
+// }
