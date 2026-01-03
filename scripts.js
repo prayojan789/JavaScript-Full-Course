@@ -131,24 +131,127 @@
 // }
 
 
-let mode = "silver";
-let color;
+// let mode = "silver";
+// let color;
  
 
-if (mode === "dark") {
-    color = "black";
-} else if (mode === "blue") {
-    color = "blue";
-} else if (mode === "pink") {
-    color = "pink";
+// if (mode === "dark") {
+//     color = "black";
+// } else if (mode === "blue") {
+//     color = "blue";
+// } else if (mode === "pink") {
+//     color = "pink";
 
-}else {
-    color = "white";
+// }else {
+//     color = "white";
+// }
+
+
+// console.log(color);
+
+// if (mode === "dark") {
+//     console.log(mode);
+// }
+
+
+// let age = 25;
+
+// // let result = age >= 18 ? "adult" : "not adult";
+// // console.log(result);
+
+// age>=18 ? console.log("adult") : console.log("not adult");
+
+// alert("heloo");
+// prompt("hello");
+
+// let name = prompt ("hello ");
+// console.log(name);
+
+
+
+//***************/ Practice  Questions ***********
+
+//Q1. Get user to input a number using prompt("Enter a number:"), Check if the number is a multiple of 5 or not.
+
+// let num = prompt("Enter a number:");
+
+// if(num % 5 === 0) {
+//     console.log(num," is multiple of 5");
+    
+// } else {
+//     console.log(num,"is NOT multiple of 5");
+// }
+
+
+// if(num % 3 === 0) {
+//     console.log(num," is multiple of 3");
+    
+// } else {
+//     console.log(num,"is NOT multiple of 3");
+// }
+
+
+// Practice Question
+// Q2. Write a code which can give grades to students according to their scores:
+ //.80-100, A
+ //.70-89, B
+ //.60-69, C
+ //.50-59, D
+//  //.0-49, F
+
+//  let score = prompt("Enter your score (0-100)");
+//  let grade;
+
+//  if(score >=90 && score <=100){
+//     grade = "A";
+//  } else if (score >= 70 && score <= 89){
+//     grade = "B";
+//  } else if (score >= 60 && score <= 69){
+//     grade = "C";
+//  } else if (score >= 50 && score <= 59){
+//     grade = "D";
+//  } else if (score >= 0 && score <= 49){
+//     grade = "F";
+//  }
+
+//  console.log("Acording to your scores, your grade was :", grade);
+ 
+
+
+// console.log("Prayojan Puri");
+// console.log("Prayojan Puri");
+// console.log("Prayojan Puri");
+// console.log("Prayojan Puri");
+// console.log("Prayojan Puri");
+//to many line of code to print more than 100 
+//to make it simple we are moving into loops
+
+//************Loops In JavaScripts */
+
+// for (let count = 1; count <= 5; count++) {
+//    console.log("Prayojan Puri"); // 5 execute
+   
+// }
+
+// console.log("loop has ended");
+
+
+//print 1 to 5
+//for (let count = 1; count <= 5; count ++){
+// console.log("Prayojan Puri");
+
+//}
+
+//Calculate sum of 1 to 5 
+// let sum = 0;
+// for (let i = 1;i < 5;i++) {
+//    sum = sum + 1;
+// } 
+//  console.log("sum =", sum);
+//  console.log("Loop has ended");
+ 
+ for (let i = 1; i <= 5; i++) {
+   console.log("i = ", i); // 5 execute
 }
 
-
-console.log(color);
-
-if (mode === "dark") {
-    console.log(mode);
-}
+console.log("i");
