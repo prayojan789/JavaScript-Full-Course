@@ -250,8 +250,36 @@
 //  console.log("sum =", sum);
 //  console.log("Loop has ended");
  
- for (let i = 1; i <= 5; i++) {
-   console.log("i = ", i); // 5 execute
-}
+//  for (let i = 1; i <= 5; i++) {
+//    console.log("i = ", i); // 5 execute
+// }
 
-console.log("i");
+// console.log("i");
+
+
+// loops 
+// Infnite loop : A loop which never end
+
+// for (let i = 1 ; i <= 5 ; i++) {
+//    console.log("i =", i);
+   
+// }
+
+//while loop
+
+// let i = 1;
+// while (i <= 10) {
+//    console.log("i=",i);
+//    i++;
+   
+// let i = 20;
+//  while (i <= 10) {
+//    console.log(i);
+//  }
+
+let i = 20;
+do{
+  console.log("Prayojan Puri ");
+  i ++;
+  
+}while (i<=10);
