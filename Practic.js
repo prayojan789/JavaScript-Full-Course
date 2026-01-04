@@ -61,13 +61,24 @@
 
 //Q4. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user entsrs correct value.
 
-let gameNum = 25;
+// let gameNum = 25;
 
-let userNum = prompt("Guess the game number :");
+// let userNum = prompt("Guess the game number :");
 
-while(userNum != gameNum){
-    userNum = prompt("You entered wrong number : ");
+// while(userNum != gameNum){
+//     userNum = prompt("You entered wrong number : ");
 
-}
+// }
 
-console.log("Congratulation, you entered the right number");
+// console.log("Congratulation, you entered the right number");
+
+
+
+//Q5. Prompt the user to enter their full name. Generate a username for them based on the Input. Start username with @, followed by their full name and ending with the fullname length.
+
+
+    let fullName = prompt("Enter your fullname without spaces");
+
+    let username = "@" + fullName +  fullName.length;
+    console.log(username);
+    

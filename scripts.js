@@ -277,9 +277,9 @@
 //    console.log(i);
 //  }
 
-let i = 20;
-do{
-  console.log("Prayojan Puri ");
-  i ++;
+// let i = 20;
+// do{
+//   console.log("Prayojan Puri ");
+//   i ++;
   
-}while (i<=10);
+// }while (i<=10);
