@@ -8,7 +8,7 @@
 
 // if(num % 5 === 0) {
 //     console.log(num," is multiple of 5");
-    
+
 // } else {
 //     console.log(num,"is NOT multiple of 5");
 // }
@@ -16,17 +16,17 @@
 
 // if(num % 3 === 0) {
 //     console.log(num," is multiple of 3");
-    
+
 // } else {
 //     console.log(num,"is NOT multiple of 3");
 // }
 
 
 // Q2. Write a code which can give grades to students according to their scores:
- //.80-100, A
- //.70-89, B
- //.60-69, C
- //.50-59, D
+//.80-100, A
+//.70-89, B
+//.60-69, C
+//.50-59, D
 //  //.0-49, F
 
 //  let score = prompt("Enter your score (0-100)");
@@ -77,11 +77,11 @@
 //Q5. Prompt the user to enter their full name. Generate a username for them based on the Input. Start username with @, followed by their full name and ending with the fullname length.
 
 
-    // let fullName = prompt("Enter your fullname without spaces");
+// let fullName = prompt("Enter your fullname without spaces");
 
-    // let username = "@" + fullName +  fullName.length;
-    // console.log(username);
-    
+// let username = "@" + fullName +  fullName.length;
+// console.log(username);
+
 
 //Q6. For a given array with marks of students -> [85, 97, 44, 37, 76, 60]
 //Find the average marks of the entire class.
@@ -95,7 +95,7 @@
 //  }
 //      let avg = sum / marks.length;
 //      console.log(`avg marks of the class = ${avg}`);
-     
+
 
 
 //Q6. For a give array with prices of 5items  ->[250, 645, 300, 900, 50]
@@ -125,10 +125,54 @@
 //b. Remove Uber & Add Ola in its place
 //c. Add Amazon at the end
 
-let companies = ["Bloomberg", "Microsoft","Uber","Google","IBM","Netflix"];
+// let companies = ["Bloomberg", "Microsoft","Uber","Google","IBM","Netflix"];
 
 // companies.shift();
 
 // companies.splice(2, 1, "Ola");
 
-companies.push("Amazon");
+// companies.push("Amazon");
+
+
+// Q8. Create a function using the "function" keywords that takes a String as an argument & returns the number of vowels in the String. 
+
+function countVowels(str) {
+    //"PrayojanPuri" , count = 5
+    //     for (const char of str) {
+    //         console.log(char);
+    //     }
+
+    let count = 0;
+    for (const char of str) {
+        if (
+            char === "a" ||
+            char === "e" ||
+            char === "i" ||
+            char === "o" ||
+            char === "u"
+        ) {
+            count++;
+        }
+    }
+
+    console.log(count);
+    
+}
+
+const countVow =(str) => {
+     let count = 0;
+    for (const char of str) {
+        if (
+            char === "a" ||
+            char === "e" ||
+            char === "i" ||
+            char === "o" ||
+            char === "u"
+        ) {
+            count++;
+        }
+    }
+
+    console.log(count);
+    
+}
