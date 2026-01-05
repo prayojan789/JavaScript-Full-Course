@@ -102,17 +102,26 @@
 // All items have an offer of 10% OFF on them. Change the array to store final Price
 // after applying offer.
 
-let items = [250, 645, 300, 900, 50]
+// let items = [250, 645, 300, 900, 50]
 
-let i = 0;
-for (let val of items) {
-    console.log(`value at index ${i} = ${val}`);
-    let offer = val / 10;
-    items[i] = items[i] - offer;
-    console.log(`value after offer = ${val}`);
-    i++;
-}
+// let i = 0;
+// for (let val of items) {
+//     console.log(`value at index ${i} = ${val}`);
+//     let offer = val / 10;
+//     items[i] = items[i] - offer;
+//     console.log(`value after offer = ${val}`);
+//     i++;
+// }
 
 // for (let i = 0; i<items.length; i ++){
-
+//     let offer = items[i] / 10;
+//     items[i]-=offer;
 // }
+// console.log(items);
+
+
+let foodItems = ["Potato","Apple", "Litchi", "Tomato"];
+
+foodItems.push("chips", "burger", "paneer");
+
+console.log(foodItems);
