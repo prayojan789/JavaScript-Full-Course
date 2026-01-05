@@ -120,8 +120,15 @@
 // console.log(items);
 
 
-let foodItems = ["Potato","Apple", "Litchi", "Tomato"];
+//Q7. Create an array to store companies -> "Bloomberg", "Microsoft","Uber","Google","IBM","Netflix"
+//a. Remove the first company from the array 
+//b. Remove Uber & Add Ola in its place
+//c. Add Amazon at the end
 
-foodItems.push("chips", "burger", "paneer");
+let companies = ["Bloomberg", "Microsoft","Uber","Google","IBM","Netflix"];
 
-console.log(foodItems);
+// companies.shift();
+
+// companies.splice(2, 1, "Ola");
+
+companies.push("Amazon");
