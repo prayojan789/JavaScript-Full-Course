@@ -100,3 +100,55 @@
 // });
 
 //A callback is a function passed as an argumet to another function.
+
+// let nums = [67,52, 39];
+
+// let newArr = nums.map((val) => {
+//     // console.log(val);
+//     return val * 2;
+    
+// });
+
+// console.log(newArr);
+
+
+// let calcSquare = (num) => {
+//     console.log(num * num);
+    
+// }
+
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let evenArr= arr.filter((val) => {
+//     return val % 2 === 0;
+// });
+
+// console.log(evenArr);
+
+
+// let evenArr= arr.filter((val) => {
+//     // return val % 2 !== 0;
+//     return val > 3;
+// });
+
+// console.log(evenArr);
+
+
+//Reduce - Performs some operations & reduce the arrat to a single. It returns that single value. 
+
+// let arr = [1,2,3,4];
+
+// const output = arr.reduce((res, curr) => {
+//     return res + curr;  
+// });
+
+// console.log(output);
+
+// let arr = [5,6,2,1,101,3];
+
+// const output = arr.reduce((prev, curr) => {
+//     return prev < curr ? prev : curr ;
+// });
+
+// console.log(output);
