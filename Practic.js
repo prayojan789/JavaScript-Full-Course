@@ -212,27 +212,27 @@
 //Use the reduce method to calculate product of all numbers in the array.
 
 
-let n = prompt ("enter a number  : ");
+// let n = prompt ("enter a number  : ");
 
-let arr =[];
+// let arr =[];
 
-for(let i=1; i<n;i++){
-  arr[i-1] = i;   //1(0), 2(1), 3(2), 4(3)
-}
+// for(let i=1; i<n;i++){
+//   arr[i-1] = i;   //1(0), 2(1), 3(2), 4(3)
+// }
 
-console.log(arr);
+// console.log(arr);
 
 
-let sum = arr.reduce((res, curr) =>{
-  return res + curr;
-});
+// let sum = arr.reduce((res, curr) =>{
+//   return res + curr;
+// });
 
-console.log("sum = ", sum);
+// console.log("sum = ", sum);
 
-let factorial = arr.reduce((res, curr)=>{
-  return res * curr;
+// let factorial = arr.reduce((res, curr)=>{
+//   return res * curr;
 
-});
+// });
 
-console.log("factorial =", factorial);
+// console.log("factorial =", factorial);
 
