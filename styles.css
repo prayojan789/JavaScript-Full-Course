@@ -1,0 +1,16 @@
+   h1{
+            color :aqua;
+            background-color: rgb(89, 0, 255);
+            font: optional;
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+body {
+    background-color: rgb(135, 135, 219);
+}
+
+button{
+    background-color: violet;
+    color: aliceblue;
+}
