@@ -236,3 +236,8 @@
 
 // console.log("factorial =", factorial);
 
+
+
+// Q12. Create a H2 heading element with Text - "Hello JavaScript". Append "from students" to this text using JS.
+
+// Q13.
