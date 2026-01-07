@@ -44,18 +44,18 @@
 //     grade = "F";
 //  }
 
-//  console.log("Acording to your scores, your grade was :", grade);
+//  console.log("Acording to your scores, your grade was : ", grade);
 
 //Q3. Print all even numbers from 0 to 100.
 
-// for (let num = 0; num < 10;num ++);{
+// for (let num = 0 ; num < 10 ; num ++);{
 //     if (num % 2 === 0) { // even numbers
-//         console.log("num =",num);
+//         console.log(" num = ",num);
 //     }
 // }
-// for (let num = 0; num < 10;num ++);{
+// for (let num = 0 ; num < 10; num ++);{
 //     if (num % 2 !== 0) { // odd numbers
-//         console.log("num =",num);
+//         console.log (" num = ",num);
 //     }
 // }
 
