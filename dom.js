@@ -3,3 +3,4 @@
 
 console.log("Hello");
 window.console.log("Hello2");
+ window.alert("Hello");
