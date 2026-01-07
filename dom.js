@@ -29,3 +29,10 @@
 // let allEl = document.querySelectorAll(".myClass"); //all elements
 // console.dir(allEl);
 
+// let firstEl = document.querySelector("p"); //1st element
+// console.dir(firstEl);
+
+// console.dir(document.body.firstChild);
+
+let div = document.querySelector("div");
+console.dir(div);
