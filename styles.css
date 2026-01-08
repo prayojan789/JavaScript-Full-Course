@@ -1,4 +1,4 @@
-   h1{
+   /* h1{
             color :aqua;
             background-color: rgb(89, 0, 255);
             font: optional;
@@ -13,4 +13,13 @@ body {
 button{
     background-color: violet;
     color: aliceblue;
+} */
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black ;
+    margin: 5px ;
+    text-align: center;
+    background-color: aquamarine;
 }

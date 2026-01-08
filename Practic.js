@@ -240,4 +240,21 @@
 
 // Q12. Create a H2 heading element with Text - "Hello JavaScript". Append "from students" to this text using JS.
 
-// Q13.
+// let h2 = document.querySelector("h2");
+// console.dir(h2.innerText);
+
+// h2.innerText =h2.innerText + " from NCIT College students" // concatenate
+
+
+
+
+// Q13.Create 3 div with common class name - "box". Access them & add some unique feature of them.
+
+
+
+let div = document.querySelectorAll(".box");
+ let idx = 1;
+ for (div of divs){
+    div.innerText = `new unique value ${idx}`;
+    idx++;
+ }
