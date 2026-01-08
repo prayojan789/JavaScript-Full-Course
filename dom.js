@@ -34,7 +34,18 @@
 
 // console.dir(document.body.firstChild);
 
-let div = document.querySelector("div");
-console.dir(div);
+// let div = document.querySelector("div");
+// console.dir(div);
 
-let heading = document.querySelector("h1");
+// let heading = document.querySelector("h1");
+
+// let div = document.querySelector("div");
+// console.log(div);
+
+// let id = div.getAttribute("id");
+// console.log(id);
+
+// let name = div.getAttribute("name");
+// console.log(name);
+
+
