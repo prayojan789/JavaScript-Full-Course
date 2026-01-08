@@ -15,11 +15,28 @@ button{
     color: aliceblue;
 } */
 
-.box {
+   /* .box {
     height: 100px;
     width: 100px;
     border: 1px solid black ;
     margin: 5px ;
     text-align: center;
     background-color: aquamarine;
-}
+} */
+
+   /* #box {
+       height: 100px;
+       width: 100px;
+       background-color: rgb(148, 127, 255);
+       color: #f6f5f5;
+       border: 1px solid black;
+   } */
+
+
+   .content{
+    color: red;
+   }
+
+   .newClass {
+    background-color: green ;
+   }
