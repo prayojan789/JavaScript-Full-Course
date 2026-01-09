@@ -199,7 +199,7 @@
 
 // let marks = [97, 64, 32, 49, 99, 96, 86];
 
-// let toppers= marks.filter((val) =>{
+// let toppers= marks.filter((va`l) =>{
 //   return val > 90;
 // });
 
@@ -222,7 +222,6 @@
 
 // console.log(arr);
 
-
 // let sum = arr.reduce((res, curr) =>{
 //   return res + curr;
 // });
@@ -237,7 +236,6 @@
 // console.log("factorial =", factorial);
 
 
-
 // Q12. Create a H2 heading element with Text - "Hello JavaScript". Append "from students" to this text using JS.
 
 // let h2 = document.querySelector("h2");
@@ -245,12 +243,7 @@
 
 // h2.innerText =h2.innerText + " from NCIT College students" // concatenate
 
-
-
-
 // Q13.Create 3 div with common class name - "box". Access them & add some unique feature of them.
-
-
 
 // let div = document.querySelectorAll(".box");
 //  let idx = 1;
@@ -263,7 +256,6 @@
 // Q14. Create a new button element. Give it a text "click me", background color of red & test color of white.
 // Insert the button as the first element inside the body tag.
 
-
 let newBtn = document.createElement("button");
 newBtn.innerText = "Hit me baby!";
 
@@ -271,8 +263,6 @@ newBtn.style.color = "pink";
 newBtn.style.background = "red";
 
 document.querySelector("body").prepend(newBtn);
-
-
 
 
 // Q15. Create a <p> tag in html, give it a class & styling. 
