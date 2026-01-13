@@ -63,16 +63,18 @@ p {
 }
 
 .msg-container {
+    
     margin-top: 5rem;
 }
 
-#msg {
 
+#msg {
+    
     background-color: #081b31;
     color: #fff;
     font-size: 2rem;
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
-
+    
 }
