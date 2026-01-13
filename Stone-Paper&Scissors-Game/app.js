@@ -1,7 +1,7 @@
 let userScore = 0;
-let compSco000000re = 0;
+let comp = 0;
 
-const  choices = document.querySelectorAll(".choice");
+const choices = document.querySelectorAll(".choice");
    
 choices.forEach((choice) => {
     console.log(choice);

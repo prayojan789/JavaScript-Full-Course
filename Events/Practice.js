@@ -19,7 +19,8 @@ let currMode = "light"; // dark
 
   modeBtn.addEventListener("click", () => {
     if (currMode === "light") {
-        currMode = "dark";
+        currMode =  +
+        -"dark";
        body.classList.add("dark");
        body.classList.remove("light");
     }else{
