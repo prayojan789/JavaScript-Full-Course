@@ -12,12 +12,12 @@ const employee = {
         console.log("tax rate is 10%");
         
     },
-    calctax2 :function(){
-         console.log("tax rate is 10%");
+    // calctax2 :function(){
+    //      console.log("tax rate is 10%");
         
-    }
+    // }
 };
 
 const PrayojanPuri = {
-    salary:
+    salary: 50000,
 }

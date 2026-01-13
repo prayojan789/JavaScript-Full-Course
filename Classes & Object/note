@@ -5,3 +5,4 @@ JS objects have a special property called prototype.
 We can set prototype using __proto__
 
 *If object & prototype have same method, object's method will be used.
+
