@@ -12,10 +12,10 @@
 //         console.log("tax rate is 10%");
 
 //     },
-    // calctax2 :function(){
-    //      console.log("tax rate is 10%");
+// calctax2 :function(){
+//      console.log("tax rate is 10%");
 
-    // }
+// }
 // };
 
 // const PrayojanPuri = {
@@ -77,44 +77,55 @@
 // class Parent {
 //     hello(){
 //         console.log("hello");
-        
+
 //     }
 // }
 
 // class Child extends Parent {}
 //     //  hello(){
 //     //     console.log("hello");
-        
+
 //     // }
 // let obj = new Child();
 
 class Person {
-    constructor() {
+    constructor(name) {
         this.species = "homo sapiens";
+        this.name = name;
     }
-    eat(){
+    eat() {
         console.log("eat");
-        
+
     }
-    sleep() {
-        console.log("sleep");
-    }
-    work() {
-        console.log("do nothing");
-    }
+    // sleep() {
+    //     console.log("sleep");
+    // }
+    // work() {
+    //     console.log("do nothing");
+    // }
 }
 
-class Enginner extends Person{
+class Engineer extends Person {
+    constructor(name) {
+        // console.log("enter child constructor");
+        super(name); // to invoke parent class constructor
+        // this.branch = branch;
+        // console.log("exit child constructor");
+
+    }
     work() {
+        super.eat();
         console.log("solve Problems, build somthing");
-        
+
     }
 }
 
-class Doctor extends Person{
-    work(){
-        console.log("treat patients");
-    }
-}
+// class Doctor extends Person{
+//     work(){
+//         console.log("treat patients");
+//     }
+// }
 
-let prayojanObj = new Enginner();
+// let prayojanObj = new Enginner();
+// let engObj = new Engineer("Software engineer");
+let engObj = new Engineer("Prayojan");

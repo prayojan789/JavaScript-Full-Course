@@ -28,3 +28,14 @@ class Child extends Parent{
 }
 
 *If Child & Parent have same method, child's method will be used.[Method Overriding]
+
+Super keyboard
+The super keyboard is used to call the constructor of its parent class to access the parent's properties and methods.
+        super(args)//calls Parent's constructor
+        super.parentMethod(args)
+
+Let's Practice
+
+Q1. You are creating a wedsite for your college. Create a class User with 2 properties, name & email. It also has a method called viewData() that allows user to view website data.
+
+Q2. Create a new class called Admin which inherits from  User. Add a new method called editData tp Admin that allows website data.
