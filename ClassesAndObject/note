@@ -45,6 +45,6 @@ try-catch
 
     try{
         ... normal code
-    }catch (err){//err is erroe object
+    }catch (err){//
         ...handling error
     }

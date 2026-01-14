@@ -1,0 +1,13 @@
+What this chapter is about?
+
+async >> promise chains >> callback hell
+
+Sync in JS
+
+Synchronous 
+Synchronous means the code runs ina particular sequence of intructions given in the program.
+Each instruction waits for the previous instruction to complete its execution.
+
+Asynchronous
+Due to synchronous programming, sometimes imp instruction get blocked due to some previous instruction, which cause a delay in the UI.
+Asynchronous code execution allows to execution next instruction immediately and doesn't block the flow.
