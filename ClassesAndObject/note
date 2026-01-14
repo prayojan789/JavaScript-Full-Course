@@ -41,3 +41,10 @@ Q1. You are creating a wedsite for your college. Create a class User with 2 prop
 Q2. Create a new class called Admin which inherits from  User. Add a new method called editData tp Admin that allows website data.
 
 Error Handling
+try-catch
+
+    try{
+        ... normal code
+    }catch (err){//err is erroe object
+        ...handling error
+    }
