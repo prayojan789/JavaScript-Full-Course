@@ -18,3 +18,13 @@ classMyclass{
 }
 
 let myObject = newMyclass();
+
+Inheritance in JS
+inheritance is passing down properties & methode from parent class to child class.
+
+class Parent{
+}
+class Child extends Parent{
+}
+
+*If Child & Parent have same method, child's method will be used.[Method Overriding]

@@ -44,29 +44,77 @@
 
 
 //classes
-class ToyotaCar{
-    constructor(brand,mileage){
-        console.log("creating new objects");
-        this.brand = brand;
-        
-        
-    }
-    start(){
-    console.log("start");
-    } 
-    stop(){
-        console.log("stop");
-    }
+// class ToyotaCar{
+//     constructor(brand,mileage){
+//         console.log("creating new objects");
+//         this.brand = brand;
+//         this.mileage = mileage;
+//     }
+//     start(){
+//     console.log("start");
+//     } 
+//     stop(){
+//         console.log("stop");
+//     }
 
-    // setBrand(brand){
-    //     this.brand = brand;
-    // }
+//     // setBrand(brand){
+//     //     this.brand = brand;
+//     // }
+// }
+
+// let fortuner = new ToyotaCar("fortuner", 10); //constructor
+// console.log(fortuner);
+
+// // fortuner.setBrand("fortuner");
+// let lexus = new ToyotaCar("lexus",12);//constructor
+// console.log(lexus);
+// lexus.setBrand("lexus")0;
+
+
+//********** */
+//Inheritance 
+
+// class Parent {
+//     hello(){
+//         console.log("hello");
+        
+//     }
+// }
+
+// class Child extends Parent {}
+//     //  hello(){
+//     //     console.log("hello");
+        
+//     // }
+// let obj = new Child();
+
+class Person {
+    constructor() {
+        this.species = "homo sapiens";
+    }
+    eat(){
+        console.log("eat");
+        
+    }
+    sleep() {
+        console.log("sleep");
+    }
+    work() {
+        console.log("do nothing");
+    }
 }
 
-let fortuner = new ToyotaCar("fortuner", 10); //constructor
-console.log(fortuner);
+class Enginner extends Person{
+    work() {
+        console.log("solve Problems, build somthing");
+        
+    }
+}
 
-// fortuner.setBrand("fortuner");
-let lexus = new ToyotaCar("lexus",12);//constructor
-console.log(lexus);
-// lexus.setBrand("lexus")0;
+class Doctor extends Person{
+    work(){
+        console.log("treat patients");
+    }
+}
+
+let prayojanObj = new Enginner();
