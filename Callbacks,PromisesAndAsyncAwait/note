@@ -40,3 +40,10 @@ Promises
 .then() &.catch()
 promise.then((res) => {....})
 promise.catch((err) => {....})
+
+
+Asyn-c Await
+asyn function always returns a promise.
+asyn function myFunc(){....}
+
+await pauses the exection of its surrounding async function until the promise is settled.
