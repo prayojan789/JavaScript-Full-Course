@@ -62,26 +62,72 @@
 //     console.log(i, str);
 // }
 
-function getData(dataId, getNextData){ //2s
-   setTimeout(()=>{
-    console.log("data", dataId);
-    }, 2000)
-}
+// const getPromise = () => {
+//     new Promise((resolve , reject) => {
+//     console.log("I am a promise");
+//     // resolve(success);
+//     // reject("some error occurs");
+//     // reject("error");
+//     // reject("Network error");
+// });
+// };
 
-//callback hell
- getData(1, ()=> {
-    console.log("getting data2 .....");
+// let promise = getPromise();
+// promise.then(() => {
+//     console.log("promise fulfilled");
+    
+// });
+// promise.catch((err) => {
+//     console.log("rejected" , err);
+    
+// });
+ 
+
+
+
+// let promise = new Promise((resolve , reject) => {
+//     console.log("I am a promise");
+//     // resolve(success);
+//     reject("some error occurs");
+
+// });
+
+// function getData(dataId, getNextData){
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("data", dataId);
+//             resolve("success");
+//             if (getNextData) {
+//                 getNextData();
+//             }
+            
+//         }, 2000);
+//     }) 
+// }
+
+
+
+
+// function getData(dataId, getNextData){ //2s
+//    setTimeout(()=>{
+//     console.log("data", dataId);
+//     }, 2000)
+// }
+
+// //callback hell
+//  getData(1, ()=> {
+//     console.log("getting data2 .....");
      
-    getData(2, ()=>{
-       console.log("getting data3 .....");
+//     getData(2, ()=>{
+//        console.log("getting data3 .....");
         
-        getData(3, ()=>{
-            console.log("getting data4 .....");
-            getData(4);
-        })
-    });
+//         getData(3, ()=>{
+//             console.log("getting data4 .....");
+//             getData(4);
+//         })
+//     });
 
-});
+// });
 
 //  getData(1)
 //  getData(2)
