@@ -82,7 +82,45 @@
     
 // });
  
+// function asyncFunc1(){
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() =>{
+//             console.log("data1");
+            
+//             resolve("success");
+//         }, 4000);
+//     });
+// }
 
+// function asyncFunc2(){
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() =>{
+//             console.log("data2");
+            
+//             resolve("success");
+//         }, 4000);
+//     });
+// }
+
+// console.log("fetching data1...");
+// // let p1 = asyncFunc1();
+// // p1.then((res) => 
+//     asyncFunc1().then(res => {
+//     // console.log("res");
+//     console.log("fetching data2...");
+//     asyncFunc2().then(res => {});    
+//     // let p2= asyncFunc2();
+//     // p2.then((res) => {
+//     //     // console.log("res");
+//     // })
+// })
+
+
+// console.log("fetching data2...");
+// let p2 = asyncFunc2();
+// p1.then((res) => {
+//     console.log("res");
+// })
 
 
 // let promise = new Promise((resolve , reject) => {
@@ -92,22 +130,64 @@
 
 // });
 
-// function getData(dataId, getNextData){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             console.log("data", dataId);
-//             resolve("success");
-//             if (getNextData) {
-//                 getNextData();
-//             }
+function getData(dataId, getNextData){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("data", dataId);
+            resolve("success");
+            // if (getNextData) {
+            //     getNextData();
+            // }
             
-//         }, 2000);
-//     }) 
-// }
+        }, 5000);
+    }) 
+}
+
+//Promise 
+// let p1 = getData(1);
+// p1.then((res) => {
+//     console.log(res);
+    
+// });
+// getData(1).then((res) => {
+//     console.log(res);
+//     // getData(2).then((res) => {
+//     //     console.log(res) ;
+//         return getData(2);
+//     });    
+    
+// });
 
 
+ console.log("getting data1 .....");
+getData(1)
+.then((res) => {
+     console.log("getting data2 .....");
+    return getData(2);
+})
+.then((res) => {
+     console.log("getting data3 .....");
+    console.log(3);
 
+})
+.then((res) => {
+    console.log(res);
+    
+});
 
+//  getData(1, ()=> {
+//     console.log("getting data2 .....");
+     
+//     getData(2, ()=>{
+//        console.log("getting data3 .....");
+        
+//         getData(3, ()=>{
+//             console.log("getting data4 .....");
+//             getData(4);
+//         })
+//     });
+
+// });
 // function getData(dataId, getNextData){ //2s
 //    setTimeout(()=>{
 //     console.log("data", dataId);
