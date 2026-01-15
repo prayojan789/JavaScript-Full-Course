@@ -62,14 +62,30 @@
 //     console.log(i, str);
 // }
 
-function getData(dataId){ //2s
+function getData(dataId, getNextData){ //2s
    setTimeout(()=>{
     console.log("data", dataId);
     }, 2000)
 }
- getData(1)
- getData(2)
- getData(3)
+
+//callback hell
+ getData(1, ()=> {
+    console.log("getting data2 .....");
+     
+    getData(2, ()=>{
+       console.log("getting data3 .....");
+        
+        getData(3, ()=>{
+            console.log("getting data4 .....");
+            getData(4);
+        })
+    });
+
+});
+
+//  getData(1)
+//  getData(2)
+//  getData(3)
 //data1
 //data2
 //data3
