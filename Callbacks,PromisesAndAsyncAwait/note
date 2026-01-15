@@ -11,3 +11,12 @@ Each instruction waits for the previous instruction to complete its execution.
 Asynchronous
 Due to synchronous programming, sometimes imp instruction get blocked due to some previous instruction, which cause a delay in the UI.
 Asynchronous code execution allows to execution next instruction immediately and doesn't block the flow.
+
+Callbacks
+A callback is a function passed as a argument to another function.
+
+Callback Hell
+Callback Hell : Nested callbacks stacked below one another forming a pyramid structure.
+(Pyramid of Doom)
+
+This style of programming becoms difficult to understand & manage.
