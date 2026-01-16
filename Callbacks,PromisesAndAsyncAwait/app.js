@@ -144,7 +144,7 @@ function api() {
     });
 }
  
-//Async-await
+//As ync-await
 
 
 // async function getweatherData(){
@@ -198,14 +198,14 @@ function api() {
     
 // });
 
-//  getData(1, ()=> {
+//getData(1, ()=> {
 //     console.log("getting data2 .....");
      
 //     getData(2, ()=>{
 //        console.log("getting data3 .....");
         
 //         getData(3, ()=>{
-//             console.log("getting data4 .....");
+//             console.log("getting data4 .....00");
 //             getData(4);
 //         })
 //     });
@@ -238,3 +238,6 @@ function api() {
 //data1
 //data2
 //data3
+
+
+
