@@ -10,3 +10,9 @@ Understanding Terms
 AJAX is Asynchronous JS & XML
 JSON is JavaScript Object Notation
 json() moethod: return a second promise that resolve with the result with the result of parsing the response body text as JSON.(Input is JSON, output is JS object)
+
+
+Requests & Response
+HTTP Verbs
+Response Status COde 
+*HTTP response haeders aslo contain details about the responses, such as content type, HTTP status code etc.

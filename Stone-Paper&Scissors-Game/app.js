@@ -7,4 +7,4 @@ choices.forEach((choice) => {
     console.log(choice);
     choice.addEventListener("click", () => {})
         console.log("choice was clicked");
-    })
+    }) 
