@@ -96,5 +96,5 @@ const updateExchangeRate = asyc() => {
         // console.log(rate);
 
          let finalAmount = amount * rate;
-         msg.innerText =  `${amtValue} ${fromCurr.value} = ${finalAmount} ${toCurr.vale}`
+         msg.innerText =  `${amtValue} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`
 }
