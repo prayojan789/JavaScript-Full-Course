@@ -5,20 +5,20 @@
 // // let promise = fetch(URL);
 // // console.log(promise);
 
-// // const getFacts = async () => {
+// //wwwwwwww const getFacts = async () => {
 // //     console.log("getting data ......");
 // //     let response = await fetch(URL);
 // //     console.log(response);   //JSON format
 // //     let data = await response.json ();
 // //     // console.log(data[0].text);
 // //     factPara.innerText = data[1].text;
-// // };
+// //};
 
 
 // function getFacts(){
 //     fetch(URL)
 //     .then((response) => {
-//         return response.json();
+//         return response.json() ;
 //     })
 //     .then((data) => {
 //         console.log(data);
